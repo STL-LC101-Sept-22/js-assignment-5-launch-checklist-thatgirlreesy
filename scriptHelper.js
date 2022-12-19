@@ -2,6 +2,10 @@
 require('isomorphic-fetch');
 
 function addDestinationInfo(document, name, diameter, star, distance, moons, imageUrl) {
+    function myFetch() {
+        //let target = data[random];
+        let missionTarget = myFetch(pickPlanet)
+    }
    // Here is the HTML formatting for our mission target div.
    /*
                 <h2>Mission Destination</h2>
